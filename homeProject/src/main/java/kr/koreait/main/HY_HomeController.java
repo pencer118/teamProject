@@ -76,7 +76,7 @@ public class HY_HomeController {
 	 * @param locale
 	 * @param model
 	 * @return 메인 페이지를 띄운다.
-	 */
+	 */ 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
